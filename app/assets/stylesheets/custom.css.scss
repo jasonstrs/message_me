@@ -1,1 +1,15 @@
 @import "semantic-ui";
+
+.chatbox {
+    height: 450px;
+}
+
+.container-header-login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-sign-up-login-page {
+    opacity: 30%;
+}
