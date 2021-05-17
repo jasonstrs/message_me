@@ -13,3 +13,14 @@
 .container-sign-up-login-page {
     opacity: 30%;
 }
+
+#messages {
+    overflow: auto;
+    height: 15em;
+}
+
+.input {
+    button {
+        display: none;
+    }
+}
