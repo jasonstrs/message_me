@@ -14,9 +14,6 @@ const scroll_bottom = () => {
   $("#messages").scrollTop($("#messages")[0].scrollHeight);
 }
 
-
-
-
 $(document).on("turbolinks:load", () => { 
     $(".ui.dropdown").dropdown()
     
@@ -29,3 +26,6 @@ $(document).on("turbolinks:load", () => {
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+export default scroll_bottom // export scroll_bottom
+

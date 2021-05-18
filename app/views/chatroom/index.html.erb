@@ -12,10 +12,10 @@
         </div>
       </div>
       <div class="extra content">
-        <%= form_with model: @message, url: message_path, remote: true , class: "ui reply form" do |form| %>
+        <%= form_for @message, url: message_path, remote: true , class: "ui reply form" do |form| %>
           <div class="field">
             <div class="ui fluid icon input">
-              <%= form.text_field :body, placeholder: "Enter a message..." %>
+              <%= form.text_field :body, placeholder: "Enter a message...", id: "input-message-chatroom" %>
               <%= form.button "<i class='bordered inverted orange edit icon'></i>".html_safe %> 
             </div>
           </div>
